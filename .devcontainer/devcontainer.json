@@ -51,6 +51,6 @@
     "CLAUDE_CONFIG_DIR": "/home/node/.claude",
     "POWERLEVEL9K_DISABLE_GITSTATUS": "true"
   },
-  "postStartCommand": "sudo /usr/local/bin/init-firewall.sh",
+  "postStartCommand": "sudo bash /usr/local/bin/init-firewall.sh",
   "waitFor": "postStartCommand"
 }
